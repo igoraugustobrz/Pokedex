@@ -14,7 +14,7 @@
   }
 
   .text-field input {
-    @apply w-full bg-white shadow-md text-base md:text-xl lg:text-[20px] p-6 box-border;
+    @apply w-full bg-white shadow-md text-base md:text-xl lg:text-[20px] p-4 box-border;
   }
 
   .text-field label {
@@ -27,6 +27,15 @@
   }
 
   .form form {
-    @apply w-[80%] bg-ice-200 rounded-[20px] p-[36px_64px] shadow-sm;
+    @apply w-[80%] lg:w-[50%] bg-ice-200 rounded-[20px] p-[36px_64px] shadow-sm;
+  }
+
+  /* COMPONENTE DROPDOWNLIST */
+  .dropdown-list label {
+    @apply block mb-2 text-base md:text-xl lg:text-[22px];
+  }
+
+  .dropdown-list select {
+    @apply bg-white shadow-sm w-full p-4 text-base md:text-xl lg:text-[20px] box-border;
   }
 }
