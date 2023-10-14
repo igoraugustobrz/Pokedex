@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  /* BANNER */
+  .banner {
+    @apply bg-red-550 text-center;
+  }
+}
