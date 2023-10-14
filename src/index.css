@@ -14,10 +14,19 @@
   }
 
   .text-field input {
-    @apply w-full bg-white shadow-md w-full text-2xl p-6 box-border;
+    @apply w-full bg-white shadow-md text-base md:text-xl lg:text-[20px] p-6 box-border;
   }
 
-  .label-text-field {
-    @apply block mb-2 text-2xl;
+  .text-field label {
+    @apply block mb-2 text-base md:text-xl lg:text-[22px];
+  }
+
+  /* COMPONENTE FORM */
+  .form {
+    @apply flex justify-center m-[80px_0];
+  }
+
+  .form form {
+    @apply w-[80%] bg-ice-200 rounded-[20px] p-[36px_64px] shadow-sm;
   }
 }
